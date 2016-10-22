@@ -78,7 +78,6 @@
         font-size:12px;
         color:#666;
         float:left;
-        //margin-top:7px;
         text-align-last:justify;//两端对齐
       }
       dd{
@@ -179,71 +178,149 @@
       }
     }
   }
-  .sidebar{
-    width:244px;
-    margin:30px 0;
-    float:left;
-    font-family:$main-sec-ff;
-    h2{
-      height:40px;
-      line-height:40px;
-      text-indent:20px;
-      background:#f6f6f6;
-    }
-    .myshop{
-      border:1px solid #ddd;
-      h2{
-        font-size:16px;
-        color:#333;
 
-        border-bottom:1px solid #ddd;
-      }
-      .shopbtn{
-        height:78px;
-        line-height:78px;
+  .prodetail{
+    margin:30px 0;
+    width:100%;
+    .pronav-tabs{
+      height:40px;
+      background:#f6f6f6;
+      border:1px solid #ddd;
+      border-bottom:1px solid #33b5ff;
+      li{
+        float:left;
+        width:115px;
         text-align:center;
+        height:40px;
+        line-height:40px;
         a{
-          width:94px;
-          height:40px;
-          line-height:40px;
-          text-align:center;
           display:inline-block;
-          border:1px solid #ddd;
-          margin:0 8px;
-          font-size:14px;
-          background:#f6f6f6;
+          width:115px;
+          height:40px;
         }
       }
     }
-    .recommend{
-      margin:20px 0;
-      border:1px solid #ddd;
-      color:#666;
-      h2{
+    .protabs{
+      display:none;
+    }
+    .prointro{
 
-        font-size:14px;
-
+      .sidebar{
+        width:244px;
+        margin:10px 0 0;
+        float:left;
+        font-family:$main-sec-ff;
+        h2{
+          height:40px;
+          line-height:40px;
+          text-indent:20px;
+          background:#f6f6f6;
+        }
+        .myshop{
+          border:1px solid #ddd;
+          h2{
+            font-size:16px;
+            color:#333;
+            border-bottom:1px solid #ddd;
+          }
+          .shopbtn{
+            height:78px;
+            line-height:78px;
+            text-align:center;
+            a{
+              width:94px;
+              height:40px;
+              line-height:40px;
+              text-align:center;
+              display:inline-block;
+              border:1px solid #ddd;
+              margin:0 8px;
+              font-size:14px;
+              background:#f6f6f6;
+            }
+          }
+        }
       }
-      .prolist{
+      .prointro-text{
+        width:837px;
+        padding:40px 0;
+        border-bottom:1px solid #ddd;
+        overflow:hidden;
+        float:right;
+        p{
+          float:left;
+          width:25%;
+          font-size:13px;
+          color:#666;
+          margin:6px 0;
+          font-family:$headline-ff;
+        }
+      }
+      .prointro-banner{
+        width:100%;
+        margin:20px 0;
+      }
+      .prointro-img{
         text-align:center;
-        margin-bottom:34px;
-        .protext{
-          text-align:left;
-          padding:0 10px;
-          font-size:12px;
-          line-height:14px;
-          p{
-            color:#df0303;
-            font-size:14px;
+        border:1px solid #ddd;
+        img{
+          margin:30px 0;
+        }
+      }
+    }
+    .prospec{
+      table{
+        width:100%;
+        margin:40px 0 0;
+        tr{
+          height:40px;
+          line-height:40px;
+          font-size:14px;
+          color:#666;
+          th{
+            border:1px solid #ddd;
+            background:#f6f6f6;
+            text-indent:20px;
             font-weight:bold;
-            margin-top:10px;
+          }
+          td{
+            border:1px solid #ddd;
+
+            &:nth-child(1){
+              text-align:center;
+              font-weight:bold;
+              width:20%;
+            }
+            &:nth-child(2){
+              text-indent:20px;
+            }
           }
         }
       }
     }
-  }
-  .prodetail{
-
+    .pro-afterser{
+      margin:40px 0;
+      color:#666;
+      h2{
+        height:40px;
+        line-height:40px;
+        font-size:14px;
+        background:#f3f3f3;
+        text-indent:30px;
+      }
+      .afterser-text{
+        margin:40px 0;
+        padding:0 40px;
+        h3{
+          font-size:14px;
+          color:#41acf2;
+        }
+        p{
+          margin:10px 0;
+          line-height:16px;
+        }
+      }
+    }
   }
 
 }
